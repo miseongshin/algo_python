@@ -9,4 +9,4 @@ node = Node(3)
 first_node = Node(4)
 node.next = first_node
 
-print(node.data)
+print(node.next.data)
